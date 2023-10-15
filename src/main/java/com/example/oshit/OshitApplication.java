@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/app")
 public class OshitApplication {
 
+	@GetMapping("/")
 	public String getName(){
 		return "Hijoeputa!";
 	}
